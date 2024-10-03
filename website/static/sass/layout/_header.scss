@@ -1,0 +1,97 @@
+@import 'abstracts/variables';
+
+$breakpoint-medium: 800px;
+$breakpoint-small: 400px;
+
+header {
+    background-color: $primary-color;
+    padding: 0.5rem;
+
+    nav svg {
+        fill: $font-color;
+    }
+}
+
+ul {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 100%;
+
+    .logo {
+        color: $font-color;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-right: auto;
+        margin-left: 0.5rem;
+    }
+
+    li {
+        height: 50px;
+
+        &:first-child {
+            margin-right: auto;
+        }
+
+        a {
+            color: $solid-color;
+            font-size: 1rem;
+            font-weight: bold;
+            height: 100%;
+            padding: 0 20px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+
+            &:hover {
+                color: lightgray
+            }
+        }
+    }
+}
+
+.sidebar {
+    align-items: flex-start;
+    backdrop-filter: blur(12px);
+    background-color: rgba($primary-color, 0.15);
+    box-shadow: -3px 0 3px rgba(white, 0.1);
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    li {
+        width: 100%;
+
+        a {
+        width: 100%;
+        }
+    }
+}
+
+.megaburger {
+display: none;
+}
+
+@media (max-width: $breakpoint-medium) {
+    .hide {
+        display: none;
+    }
+
+    .megaburger {
+        display: block;
+    }
+}
+
+@media (max-width: $breakpoint-small) {
+    .sidebar {
+        width: 100%;
+    }
+}

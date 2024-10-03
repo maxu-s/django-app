@@ -1,0 +1,27 @@
+@import 'abstracts/variables';
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: $primary-color;
+    color: $font-color;
+    margin-top: 2rem;
+
+    .social-media {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        a {
+            color: $font-color;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: lighten($font-color, 20%);
+            }
+        }
+    }
+}

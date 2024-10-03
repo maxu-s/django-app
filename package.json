@@ -1,0 +1,13 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass sass/styles.scss static/css/styles.css --no-source-map",
+    "watch-css": "sass --watch sass/styles.scss:static/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
