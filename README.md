@@ -1,12 +1,10 @@
-# Soldank++ Website
-[WIP] Open-source Django web application for 2D (side-view) multiplayer arcade game [Soldank++](https://github.com/nedik/soldank-plus-plus). The project is available at [soldankpp.com](soldankpp.com)
-
-[![Discord](https://img.shields.io/discord/1224452056245600417.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/gvhsk8NZHD)
+# Soldank++ W
+Basic template of [Django](https://github.com/nedik/soldank-plus-plus) web framework in Python using HTML, JS and SASS.
 
 ## Screenshot
-<img src="https://github.com/user-attachments/assets/ada52f35-e2b2-4b11-9a73-9bbaa492af13" alt="website1" width="550"/>
-<img src="https://github.com/user-attachments/assets/30e3540a-a8b9-4b9a-9ca3-52c2abe1753c" alt="website2" width="550"/>
-<img src="https://github.com/user-attachments/assets/05f484cb-943e-4ea9-934f-f5a9bb1f23eb" alt="website3" width="550"/>
+<img src="screens/website1.png" alt="website1" width="550"/>
+<img src="screens/website2.png" alt="website2" width="550"/>
+<img src="screens/website3.png" alt="website3" width="550"/>
 
 ## Building
 
