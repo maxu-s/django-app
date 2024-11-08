@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Soldank++ is a 2D side-view arcade game based on passing
-    various maps of difficulty with the possibility of achieving faster times than other players.">
-    <title>{% block title %}Soldank++{% endblock %}</title>
+    <meta name="description" content="Basic template of Django application.">
+    <title>{% block title %}Django Application{% endblock %}</title>
 
     {% load sass_tags %}
     {% load static %}
 
-    <meta name="author" content="YETi">
-    <link rel="author" href="https://www.youtube.com/@soldank-plus-plus">
+    <meta name="author" content="Maxus">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -40,16 +38,16 @@
                     </a>
                 </li>
                 <li><a href="{% url 'base' %}">Home</a></li>
-                <li><a href="{% url 'gamemodes' %}">Gamemodes</a></li>
-                <li><a href="{% url 'ranking' %}">Ranking</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a href="{% url 'download' %}">Download</a></li>
                 <li><a href="{% url 'tutorials' %}">Tutorials</a></li>
                 <li><a href="{% url 'servers' %}">Servers</a></li>
             </ul>
             <ul>
-                <a href="{% url 'base' %}" class="logo">Soldank++</a>
+                <a href="{% url 'base' %}" class="logo">Django Application</a>
                 <li class="hide"><a href="{% url 'base' %}">Home</a></li>
-                <li class="hide"><a href="{% url 'gamemodes' %}">Gamemodes</a></li>
-                <li class="hide"><a href="{% url 'ranking' %}">Ranking</a></li>
+                <li class="hide"><a href="{% url 'about' %}">About</a></li>
+                <li class="hide"><a href="{% url 'download' %}">Download</a></li>
                 <li class="hide"><a href="{% url 'tutorials' %}">Tutorials</a></li>
                 <li class="hide"><a href="{% url 'servers' %}">Servers</a></li>
                 <li class="megaburger" onclick=showSidebar()>
@@ -70,42 +68,40 @@
     <main>
         {% block content %}
         <section class="blocks">
-            <h1>Unique 2D (side-view) multiplayer arcade game<br>
-                <span>Soldank++</span>
+            <h1>Basic template of<br>
+                <span>Django Application</span>
             </h1>
-            <p>The main part of the game is based on passing various maps of difficulty
-                with the possibility of achieving faster times than other players.<br>
-            Side modes offer a variety of multiplayer options including shooting competition,
-                hide and seek, dodgeball, zombies and more!
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, sunt atque iure assumenda voluptatibus
+                commodi ea ullam magni fuga nam quam nisi labore veniam, magnam corrupti aspernatur eaque reprehenderit ipsa.
             </p>
-            <a href="https://discord.gg/YTHDmChb" class="btn">Early Access</a>
+            <a href="https://www.djangoproject.com" class="btn">Early Access</a>
         </section>
         
         <div class="wrapper">
-            <iframe src="https://www.youtube.com/embed/Oyx72xEmqaY?si=v34vyPApxLry3cDp"></iframe>
+            <iframe src="https://www.youtube.com/watch?v=0sMtoedWaf0"></iframe>
         </div>
 
         <section class="content">
             <div class="card">
-                <h2>Project is open source</h2>
-                <a class="github" href="https://github.com/nedik/soldank-plus-plus" target="_blank">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <a class="github" href="https://www.djangoproject.com" target="_blank">
                     <img class="github" src="{% static '/images/github.png' %}" alt="Github logo">
                 </a>
-                <p>Check out the repository, contribute, suggest a feature or give feedback!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, explicabo.</p>
             </div>
             <div class="card">
-                <h2>Join us on</h2>
-                <a class="discord" href="https://discord.gg/YTHDmChb" target="_blank">
-                    <img class="discord" src="{% static 'images/discord.png' %}" alt="Discord invite">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <a class="github" href="https://www.djangoproject.com" target="_blank">
+                    <img class="github" src="{% static '/images/github.png' %}" alt="Github logo">
                 </a>
-                <p>Get in touch and follow us on Soldank++ discord for latest information about development.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, explicabo.</p>
             </div>
             <div class="card">
-                <h2>Game is a clone of</h2>
-                <a class="soldat" href="https://en.wikipedia.org/wiki/Soldat_(video_game)" target="_blank">
-                    <img class="soldat" src="{% static 'images/soldat.png' %}" alt="Soldat logo">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <a class="github" href="https://www.djangoproject.com" target="_blank">
+                    <img class="github" src="{% static '/images/github.png' %}" alt="Github logo">
                 </a>
-                <p>Rewritten code of Soldat game engine in a modern style with fully authentic look and feel.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, explicabo.</p>
             </div>
         </section>
 
@@ -113,50 +109,46 @@
             <h2>Frequently Asked Questions</h2>
             <div class="faq-item">
                 <div class="faq-question" id="faq1">
-                    <h3>What exactly is Soldank++?</h3>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur velit tenetur asperiores quasi aut id.</h3>
                 </div>
                 <div class="faq-answer">
-                    <p>Soldank++ is a unique 2D (side-view) multiplayer arcade game by Nedi. The game is a clone of Soldat game
-                        engine rewritten from Pascal to modern C++ with exactly the same look and feel.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum accusantium tempore aliquid quidem, vero optio pariatur quia quas repellendus.
                     </p>
                 </div>
             </div>
             <div class="faq-item">
                 <div class="faq-question" id="faq2">
-                    <h3>What's the primary objective?</h3>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur velit tenetur asperiores quasi aut id.</h3>
                 </div>
                 <div class="faq-answer">
-                    <p>The primary objective is to replicate all existing core mechanics precisely while expanding upon them.
-                        Furthermore, the project is committed to fully replacing certain legacy features. More detailed info in #plan on Soldank++ discord.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum accusantium tempor aliquid quidem, vero optio pariatur quia quas repellendus.
                     </p>
                 </div>
             </div>
             <div class="faq-item">
                 <div class="faq-question" id="faq2">
-                    <h3>Does the game support cross-platform play?</h3>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur velit tenetur asperiores quasi aut id.</h3>
                 </div>
                 <div class="faq-answer">
-                    <p>Cross compilation is available on Linux and Windows (macOS should be possible as well but it was not tested).</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum accusantium tempore aliquid quidem, vero optio pariatur quia quas repellendus.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <div class="faq-question" id="faq2">
-                    <h3>Why C++?</h3>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur velit tenetur asperiores quasi aut id.</h3>
                 </div>
                 <div class="faq-answer">
-                    <p>Initially, main developer (Nedi) wanted to learn the new C++ standard and at some point just started making Soldat clone for fun,
-                        but then it turned into a full-fledged project. Additionally there is already a Rust version by helloer. The name was inspired
-                        by his version and "++" was added to emphasize on the fact that it was written in modern C++.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cum accusantium tempore aliquid quidem, vero optio pariatur quia quas repellendus.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <div class="faq-question" id="faq2">
-                    <h3>How can I contribute?</h3>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur velit tenetur asperiores quasi aut id.</h3>
                 </div>
                 <div class="faq-answer">
-                    <p>Just fork the repository 
-                        <a href="https://github.com/nedik/soldank-plus-plus" target="_blank">from here</a>
-                        and create a pull request. We can discuss the changes in #dev_chat on discord and we'll be happy to help with anything!
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        <a href="https://www.djangoproject.com" target="_blank">adipisicing elit.</a>
+                        Consectetur velit tenetur asperiores quasi aut id.
                     </p>
                 </div>
             </div>
@@ -165,19 +157,19 @@
     </main>
 
     <footer>
-        <p>&copy; Soldank++ Development</p>
+        <p>&copy; Django Application</p>
 
         <div class="social-media">
-            <a href="https://www.tiktok.com/@soldank_plus_plus" target="_blank" class="social-icon">
+            <a href="https://www.djangoproject.com" target="_blank" class="social-icon">
                 <i class="fab fa-tiktok"></i>
             </a>
-            <a href="https://discord.gg/YTHDmChb" target="_blank" class="social-icon">
+            <a href="https://www.djangoproject.com" target="_blank" class="social-icon">
                 <i class="fab fa-discord"></i>
             </a>
-            <a href="https://www.youtube.com/@soldank-plus-plus" target="_blank" class="social-icon">
+            <a href="https://www.djangoproject.com" target="_blank" class="social-icon">
                 <i class="fab fa-youtube"></i>
             </a>
-            <a href="https://github.com/nedik/soldank-plus-plus" target="_blank" class="social-icon">
+            <a href="https://www.djangoproject.com" target="_blank" class="social-icon">
                 <i class="fab fa-github"></i>
             </a>
         </div>
