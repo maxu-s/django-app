@@ -1,4 +1,4 @@
-# Soldank++ W
+# Django Application
 Basic template of [Django](https://github.com/django/django) web framework in Python using HTML, JS and SASS.
 
 ## Screenshot
