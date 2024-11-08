@@ -1,5 +1,5 @@
 # Soldank++ W
-Basic template of [Django](https://github.com/nedik/soldank-plus-plus) web framework in Python using HTML, JS and SASS.
+Basic template of [Django](https://github.com/django/django) web framework in Python using HTML, JS and SASS.
 
 ## Screenshot
 <img src="screens/website1.png" alt="website1" width="550"/>
