@@ -3,11 +3,11 @@ from django.shortcuts import render
 def base(request):
     return render(request, 'website/base.html')
 
-def gamemodes(request):
-    return render(request, 'website/gamemodes.html')
+def about(request):
+    return render(request, 'website/about.html')
 
-def ranking(request):
-    return render(request, 'website/ranking.html')
+def download(request):
+    return render(request, 'website/download.html')
 
 def servers(request):
     return render(request, 'website/servers.html')
